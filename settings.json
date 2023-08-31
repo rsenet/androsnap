@@ -1,0 +1,234 @@
+{
+    "secure": [
+        {
+            "name": "privacy_mode_enabled",
+            "description": "Privacy mode is Enabled (MIUI)",
+            "expected": "1"
+        },
+        {
+            "name": "upload_debug_log_pref",
+            "description": "Upload debug log preferences",
+            "expected": "0"
+        },
+        {
+            "name": "lock_screen_show_notifications",
+            "description": "Show notifications when screen is locked",
+            "expected": "0"
+        },
+        {
+            "name": "unknown_sources_default_reversed",
+            "description": "Restrict non market apps to the current user",
+            "expected": "1"
+        },
+
+        {
+            "name": "autofill_user_data_max_category_count",
+            "description": "Relative to autofill service",
+            "expected": "0"
+        },
+        {
+            "name": "user_full_data_backup_aware",
+            "description": "Governs whether the user is eligible for full app-data backup",
+            "expected": "1"
+        },
+        {
+            "name": "location_mode",
+            "description": "The current location mode of the device.",
+            "expected": "0"
+        },
+        {
+            "name": "location_providers_allowed",
+            "description": "Providers allowed for location",
+            "expected": ""
+        },
+        {
+            "name": "lock_screen_allow_private_notifications",
+            "description": "Private notifications allowed when screen is locked",
+            "expected": "0"
+        },
+        {
+            "name": "speak_password",
+            "description": "Speak passwords enabled",
+            "expected": "0"
+        },
+        {
+            "name": "wake_gesture_enabled",
+            "description": "Wake up device on gesture enabled",
+            "expected": "0"
+        },
+        {
+            "name": "backup_enabled",
+            "description": "Backup enabled",
+            "expected": "0"
+        },
+        {
+            "name": "user_setup_complete",
+            "description": "User has completed the setup",
+            "expected": "1"
+        },
+        {
+            "name": "lock_screen_lock_after_timeout",
+            "description": "Time to lock screen after screen goes off",
+            "expected": "0"
+        },
+        {
+            "name": "lockscreen.disabled",
+            "description": "Screen lock disabled",
+            "expected": "0"
+        },
+        {
+            "name": "lock_screen_owner_info_enabled",
+            "description": "Enable owner information when screen is locked",
+            "expected": "1"
+        },
+        {
+            "name": "bluetooth_addr_valid",
+            "description": "Vluetooth address valid",
+            "expected": "1"
+        },
+        {
+            "name": "install_non_market_apps",
+            "description": "Enable installing apps not from the store",
+            "expected": "0"
+        },
+        {
+            "name": "user_full_data_backup_aware",
+            "description": "User eligible for full app full app-data backup",
+            "expected": "0"
+        },
+        {
+            "name": "has_enabled_photos_backup_before",
+            "description": "Photos backup has been enabled",
+            "expected": "0"
+
+        },
+        {
+            "name": "lockdown_in_power_menu",
+            "description": "Puts the phone into the state where it can only be unlocked via the user's primary knowledge factor",
+            "expected": "1"
+        },
+        {
+            "name": "assistant",
+            "description": "Google assistance",
+            "expected": ""
+        },
+        {
+            "name": "voice_interaction_service",
+            "description": "Voice interaction assistance",
+            "expected": ""
+        },
+        {
+            "name": "voice_recognition_service",
+            "description": "Voice recognition assistance",
+            "expected": ""
+        },
+        {
+            "name": "enabled_notification_assistant",
+            "description": "Notification assistant",
+            "expected": ""
+        },
+        {
+            "name": "web_autofill_query_url",
+            "description": "Autofill server address",
+            "expected": ""
+        }
+    ],
+    "global": [
+        {
+            "name": "network_avoid_bad_wifi",
+            "description": "Only connect to trusted networks",
+            "expected": "1"
+        },
+        {
+            "name": "device_provisioned",
+            "description": "Setup completed of the phone",
+            "expected": "1"
+        },
+        {
+            "name": "bluetooth_on",
+            "description": "Bluetooth is enabled",
+            "expected": "0"
+        },
+        {
+            "name": "wifi_on",
+            "description": "WiFi is enabled",
+            "expected": "0"
+        },
+        {
+            "name": "auto_time",
+            "description": "Automatic time synchronisation",
+            "expected": "1"
+        },
+        {
+            "name": "auto_time_zone",
+            "description": "Automatic time zone synchronisation",
+            "expected": "1"
+        },
+        {
+            "name": "stay_on_while_plugged_in",
+            "description": "Keep the device on while the device is plugged in",
+            "expected": "0"
+        },
+        {
+            "name": "wait_for_debugger",
+            "description": "Is waiting for debugger",
+            "expected": "0"
+        },
+        {
+            "name": "add_users_when_locked",
+            "description": "Add new user when device is locked",
+            "expected": "0"
+        },
+        {
+            "name": "assisted_gps_enabled",
+            "description": "Assisted GPS enabled",
+            "expected": "0"
+        },
+        {
+            "name": "accessibility_enabled",
+            "description": "Accessibility enabled",
+            "expected": "0"
+        },
+        {
+            "name": "google_assistant_button_on",
+            "description": "Google assistant button",
+            "expected": "0"
+        },
+        {
+            "name": "package_verifier_enable",
+            "description": "Package verifier",
+            "expected": "1"
+        },
+        {
+            "name": "ble_scan_always_enabled",
+            "description": "Bluetooth scan always enabled",
+            "expected": "0"
+        },
+
+        {
+            "name": "set_install_location",
+            "description": "Let the user pick default install location",
+            "expected": "0"
+        },
+        {
+            "name": "upload_apk_enable",
+            "description": "Enable upload APK to Play Protect",
+            "expected": "1"
+        },
+        {
+            "name": "package_verifier_user_consent",
+            "description": "Accept Play Protect user consent",
+            "expected": "1"
+        },
+        {
+            "name": "development_settings_enabled",
+            "description": "Development settings are enabled",
+            "expected": "0"
+        },
+        {
+            "name": "adb_enabled",
+            "description": "Android Debug Bridge is enabled",
+            "expected": "0"
+        }
+    ]
+}
